@@ -25,3 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
  
 });
+
+const deleteBtn = document.createElement("button");
+deleteBtn.textContent = "X";
+deleteBtn.addEventListener("click", () => li.remove());
+li.appendChild(deleteBtn);
